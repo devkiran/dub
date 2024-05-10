@@ -1,11 +1,6 @@
-TOKEN "dub_links_metadata_mv_endpoint_read_9653" READ
-
 NODE mv
 SQL >
-
     SELECT * FROM dub_links_metadata
 
-TYPE materialized
+TYPE MATERIALIZED
 DATASOURCE dub_links_metadata_latest
-
-

@@ -1,20 +1,7 @@
 NODE mv
 SQL >
-
-    SELECT
-        timestamp,
-        click_id,
-        link_id,
-        url,
-        country,
-        city,
-        device,
-        browser,
-        os,
-        referer,
+    SELECT timestamp, click_id, link_id, url, country, city, device, browser, os, referer,
     FROM dub_click_events
 
-TYPE materialized
+TYPE MATERIALIZED
 DATASOURCE dub_click_events_mv
-
-
