@@ -6,6 +6,7 @@ import { prisma } from "@dub/prisma";
 import { log } from "@dub/utils";
 import { NextResponse } from "next/server";
 
+export const maxDuration = 5;
 export const dynamic = "force-dynamic";
 
 const E2E_USER_ID = "clxz1q7c7000hbqx5ckv4r82h";
